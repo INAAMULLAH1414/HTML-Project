@@ -1,0 +1,542 @@
+body {
+  margin: 0; 
+  font-family:  sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-container{
+  display: flex;
+  background-attachment: fixed;
+  justify-content: center;
+ 
+}
+
+.flex-container-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-container-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.background-image-top{
+  min-height: 800px;
+  background: url('images/hero-img.png') no-repeat center center fixed; 
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.nav{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.nav a{
+  display: block;
+  color: rgb(119, 119, 119);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.nav .icon{
+  display: none;
+}
+
+.button {
+  background-color: rgb(245 199 102);
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 200px;
+  border-radius: 50px;
+}
+.services{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#service-heading{
+  text-align: center;
+  padding-bottom: 100px;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+#header{
+  max-height: 500px;
+}
+.crag-smith-heading{
+  font-size: 50px;
+  font-weight: lighter;
+   width: 100%; 
+  margin-bottom: 2%;
+
+
+}
+#sub-content{
+  text-align: left;
+  font-weight: lighter;
+  font-size: 16px;
+  width: 50%;
+}
+#whitedot{
+  color: #fff;
+}
+#credo{
+  color: white;
+  font-weight: lighter;
+  font-size: 22px;
+  margin: 0px 20px 0px 20px;
+  margin-top:10px; 
+}
+#home{
+  color: white;
+}
+#content{
+  color: whitesmoke;
+  margin-left: 50px;
+  margin-right: 1000px; 
+  margin-top: 150px;text-align: left;
+  padding: 5;
+  position: absolute;
+  width: 70%;
+}
+#photographer-sub-content{
+  color: grey;
+  font-size: 23px;
+  font-weight: lighter;
+   width: 50%; 
+}
+#services-container{
+  background-color: whitesmoke;
+  padding-top: 100px;
+}
+.servivestyle{
+  position: absolute;
+  width: 30%;
+}
+
+.servivestyle2{
+  position: absolute;
+  width: 30%;
+  float: right;
+}
+
+
+.services-section{
+  border-radius: 2px;
+  margin: 50px;
+  background-color: white;
+  padding: 20px;
+  
+}
+.message-button{
+   background-color: rgb(63, 62, 62);
+   margin-bottom: 2%;
+} 
+#client-sayings-container{
+  background-color: rgb(245, 198, 97);;
+  color: white;
+  padding-bottom: 5%;
+}
+#about-me{
+  align-content: center;
+ 
+}
+
+#events{
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+#wedding{
+  margin-bottom: 20px;
+}
+#culture{
+  margin-left: 0;
+  margin-top: 20px;
+}
+#conferences{
+  margin-top: 20px;
+}
+h2{
+  padding-top: 10%;
+  color: white;
+  text-align: center;
+
+}
+#footer-container{
+  display: flex;
+  flex-direction: row;
+  padding: 3%;
+  background-color: whitesmoke;
+  justify-content: center;
+}
+#footer-heading{
+  text-align: left;
+
+}
+#footer-container div{
+
+  padding: 2%;
+  padding-right: 7%;
+}
+#follow-me-container{
+  color: rgb(100, 100, 100);
+  padding:0 !important;
+}
+#follow-me-container a{
+   margin: 10px;
+   
+}
+footer{
+  padding: 2%;
+  text-align: center;
+  background-color: whitesmoke;
+  padding-bottom: 5%;
+}
+.fromdiv{
+display: flex;
+flex-direction: column;
+  background-color: rgb(245 199 102);
+
+}
+#logo{
+    float: left;
+    background: rgb(231, 196, 119);;
+    border-radius: 50%;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+    margin-right: 2%;
+    padding: 5;
+    
+}
+#logo p{
+  text-align: center;
+  color: #eee;
+}
+
+.buttonround{
+  border-radius: 100%;
+  width: 50%;
+  height: 50%;
+  margin: 5%;
+  margin-bottom: 10%;
+  float: left;
+ 
+
+}
+
+.services-content{
+  
+  display: table-cell;
+  padding: 2%;
+}
+.about-me-container{
+  
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+#about-image{
+  width: 89%;
+
+}
+#about-me-heading{
+  font-size: 30px;
+  font-weight: lighter;
+}
+#about-me-sub-content{
+  font-size: 16px;
+  width: 70%;
+}
+
+
+
+#client-heading{
+  text-align: center;
+  align-content: center;
+}
+#commas{
+  font-size: 25px;
+  text-align: center;
+  align-content: center;
+
+}
+#blockquote{
+  
+  text-align: center;
+  align-content: center;
+  color: white;
+  font-size: 20px;
+  padding-inline-start: 25%;
+  width: 50%;
+
+}
+.percentage-container{
+  width: 50%;
+  padding-top: 7%;
+}
+
+.progress-container {
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.1);
+ 
+}
+
+.progress-container, .progress {
+  background-color: #eee;
+  border-radius: 5px;
+  position: relative;
+  height: 7px;
+  width: 80%;
+}
+
+.progress {
+  background-color: rgb(245 199 102);
+  transition: width 0.4s linear;
+ 
+}
+
+.percentage {
+  background-color: rgb(245 199 102);
+  border-radius: 5px;
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 12px;
+  padding: 4px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  transform: translateX(-50%);
+  width: 40px;
+  text-align: center;
+  margin-left: 89%;
+}
+.progress-width-1{width:89%}
+.progress-width-2{width: 75%;}
+.progress-width-3{width: 94%;}
+
+.percentage-margin-1{margin-left: 89%;}
+.percentage-margin-2{margin-left: 75%;}
+.percentage-margin-3{margin-left: 94%;}
+
+.percentage::after {
+  background-color: rgb(245 199 102);
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 5px;
+
+}
+.filled-dot{
+  background-color: #fff;
+}
+.dots{
+  text-align: center;
+  padding-bottom: 2%; ;
+}
+
+
+#blog-posts-heading{
+  text-align: center;
+  align-items: center;
+  padding: 5%
+
+}
+::placeholder{
+  color: #bbb;
+  opacity: 100;
+}
+.blog-style{
+  border-radius: 2px;
+  margin: 5%;
+  background-color: white;
+  margin-bottom: 5%;
+  height: 50%;
+  padding-bottom: 2%;
+
+}
+.center-blog{
+  
+ 
+ margin-top: 5%;
+ border-radius: 2px;
+ background-color: white;
+ margin-bottom: 5%;
+ height: 50%;
+ padding-bottom: 2%;
+}
+
+#blog-post{
+  align-items: center;
+  background-color: whitesmoke;
+}
+.image-styles{
+  width: 100%;
+  height: 80%;
+}
+.blog-content{
+ align-items: center;
+ padding-left: 7%;
+ padding-right: 7%;
+
+}
+.blog-content a{
+  color: rgb(231, 196, 119);
+  text-decoration: none;
+
+}
+
+#say-hello-form{
+  background-color: rgb(245 199 102);
+  margin:0px;
+}
+.say-hello-heading{
+  text-align: center;
+  padding: 2%;
+  margin:0;
+  color: whitesmoke;
+  padding-top: 6%;
+}
+.form-fields{
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-bottom: 5%;
+}
+#formd{
+   align-content: center;
+}
+.form-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.formbox{
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+ 
+}
+.text-box{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid whitesmoke;
+  margin-top: 2%;
+}
+
+.text-box input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.text-box textarea{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+#first-name{
+  margin-right: 41px;
+}
+.margin-per-div{
+  margin-bottom: 50px;
+
+}
+@media only screen and (max-width: 600px) {
+  .nav a {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 25px;
+  }
+}
+
+
+@media only screen and (max-width:600px){
+  #footer-container  {
+    flex-direction: column;
+  }
+  .services{
+    flex-direction: column;
+  }
+  .flex-container-row{
+    flex-direction: column;
+    justify-content: center;
+  }
+  #events,#culture{
+    margin-left: 50px;
+  }
+  #percentage-progress{
+    padding-left: 5%;
+  }
+  #photographer-sub-content,#sub-content{
+    width: 100%;
+  }
+  .center-blog{
+    margin:20px
+  }
+ 
+}
