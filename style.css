@@ -6,42 +6,43 @@ body {
   align-content: center;
 }
 
-.flex-container{
+.flex-container {
   display: flex;
   background-attachment: fixed;
   justify-content: center;
- 
 }
 
-.flex-container-col{
+.flex-container-col {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.flex-container-row{
+
+.flex-container-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.flex-wrap{
+
+.flex-wrap {
   display: flex;
   flex-wrap: wrap;
 }
 
-.background-image-top{
+.background-image-top {
   min-height: 800px;
   background: url('images/hero-img.png') no-repeat center center fixed; 
   background-size: cover;
   background-attachment: fixed;
-
 }
-.nav{
+
+.nav {
   overflow: hidden;
   display: flex;
   justify-content: center;
 }
 
-.nav a{
+.nav a {
   display: block;
   color: rgb(119, 119, 119);
   text-align: center;
@@ -49,11 +50,12 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-.nav .icon{
+
+.nav .icon {
   display: none;
 }
 
-.button {
+.button  {
   background-color: rgb(245 199 102);
   border: none;
   color: white;
@@ -66,49 +68,55 @@ body {
   width: 200px;
   border-radius: 50px;
 }
-.services{
+
+.services {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-#service-heading{
+
+#service-heading {
   text-align: center;
   padding-bottom: 100px;
   font-size: 30px;
   font-weight: lighter;
-
 }
-#header{
+
+.max-height-500 {
   max-height: 500px;
 }
-.crag-smith-heading{
+
+.crag-smith-heading {
   font-size: 50px;
   font-weight: lighter;
    width: 100%; 
   margin-bottom: 2%;
-
-
 }
-#sub-content{
+
+#sub-content {
   text-align: left;
   font-weight: lighter;
   font-size: 16px;
   width: 50%;
 }
-#whitedot{
+
+#whitedot {
   color: #fff;
 }
-#credo{
+
+#credo {
   color: white;
   font-weight: lighter;
   font-size: 22px;
   margin: 0px 20px 0px 20px;
   margin-top:10px; 
 }
-#home{
+
+#home {
   color: white;
 }
-#content{
+
+.header-content {
   color: whitesmoke;
   margin-left: 50px;
   margin-right: 1000px; 
@@ -117,192 +125,189 @@ body {
   position: absolute;
   width: 70%;
 }
-#photographer-sub-content{
+
+#photographer-sub-content {
   color: grey;
   font-size: 23px;
   font-weight: lighter;
    width: 50%; 
 }
-#services-container{
+
+#services-container {
   background-color: whitesmoke;
   padding-top: 100px;
 }
-.servivestyle{
+
+.servivestyle {
   position: absolute;
   width: 30%;
 }
 
-.servivestyle2{
+.servivestyle2 {
   position: absolute;
   width: 30%;
   float: right;
 }
 
-
-.services-section{
+.services-section {
   border-radius: 2px;
   margin: 50px;
   background-color: white;
   padding: 20px;
-  
 }
-.message-button{
+
+.message-button {
    background-color: rgb(63, 62, 62);
    margin-bottom: 2%;
-} 
-#client-sayings-container{
+}
+
+#client-sayings-container {
   background-color: rgb(245, 198, 97);;
   color: white;
   padding-bottom: 5%;
 }
-#about-me{
-  align-content: center;
- 
+
+#about-me {
+  align-content: center; 
 }
 
-#events{
+#events {
   margin-left: 0;
   margin-bottom: 20px;
 }
-#wedding{
+
+#wedding {
   margin-bottom: 20px;
 }
-#culture{
+
+#culture {
   margin-left: 0;
   margin-top: 20px;
 }
-#conferences{
+
+#conferences {
   margin-top: 20px;
 }
-h2{
+
+h2 {
   padding-top: 10%;
   color: white;
   text-align: center;
-
 }
-#footer-container{
+
+#footer-container {
   display: flex;
   flex-direction: row;
   padding: 3%;
   background-color: whitesmoke;
   justify-content: center;
 }
-#footer-heading{
+
+#footer-heading {
   text-align: left;
-
 }
-#footer-container div{
 
+#footer-container div {
   padding: 2%;
   padding-right: 7%;
 }
-#follow-me-container{
+
+#follow-me-container {
   color: rgb(100, 100, 100);
   padding:0 !important;
 }
-#follow-me-container a{
+
+#follow-me-container a {
    margin: 10px;
-   
 }
-footer{
+
+footer {
   padding: 2%;
   text-align: center;
   background-color: whitesmoke;
   padding-bottom: 5%;
 }
-.fromdiv{
-display: flex;
-flex-direction: column;
-  background-color: rgb(245 199 102);
 
+.fromdiv {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(245 199 102);
 }
-#logo{
-    float: left;
-    background: rgb(231, 196, 119);;
-    border-radius: 50%;
-    margin-top: 20px;
-    width: 50px;
-    height: 50px;
-    align-items: center;
-    align-content: center;
-    margin-right: 2%;
-    padding: 5;
-    
+
+#logo {
+  float: left;
+  background: rgb(231, 196, 119);;
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  align-content: center;
+  margin-right: 2%;
+  padding: 5;
 }
-#logo p{
+
+#logo p {
   text-align: center;
   color: #eee;
 }
 
-.buttonround{
-  border-radius: 100%;
-  width: 50%;
-  height: 50%;
-  margin: 5%;
-  margin-bottom: 10%;
-  float: left;
- 
-
-}
-
-.services-content{
-  
+.services-content {
   display: table-cell;
   padding: 2%;
 }
-.about-me-container{
-  
+
+.about-me-container {  
   margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
-
 }
-#about-image{
+
+#about-image {
   width: 89%;
-
 }
-#about-me-heading{
+
+#about-me-heading {
   font-size: 30px;
   font-weight: lighter;
 }
-#about-me-sub-content{
+
+#about-me-sub-content {
   font-size: 16px;
   width: 70%;
 }
 
-
-
-#client-heading{
+#client-heading {
   text-align: center;
   align-content: center;
 }
-#commas{
+
+#commas {
   font-size: 25px;
   text-align: center;
   align-content: center;
 
 }
-#blockquote{
-  
+
+#blockquote {  
   text-align: center;
   align-content: center;
   color: white;
   font-size: 20px;
   padding-inline-start: 25%;
   width: 50%;
-
 }
-.percentage-container{
+
+.percentage-container {
   width: 50%;
   padding-top: 7%;
 }
 
-.progress-container {
-  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.1);
- 
+.progress-container  {
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.1); 
 }
 
-.progress-container, .progress {
+.progress-container, .progress  {
   background-color: #eee;
   border-radius: 5px;
   position: relative;
@@ -310,13 +315,12 @@ flex-direction: column;
   width: 80%;
 }
 
-.progress {
+.progress  {
   background-color: rgb(245 199 102);
   transition: width 0.4s linear;
- 
 }
 
-.percentage {
+.percentage  {
   background-color: rgb(245 199 102);
   border-radius: 5px;
   box-shadow: 0 4px 5px rgb(0, 0, 0, 0.2);
@@ -331,15 +335,16 @@ flex-direction: column;
   text-align: center;
   margin-left: 89%;
 }
-.progress-width-1{width:89%}
-.progress-width-2{width: 75%;}
-.progress-width-3{width: 94%;}
 
-.percentage-margin-1{margin-left: 89%;}
-.percentage-margin-2{margin-left: 75%;}
-.percentage-margin-3{margin-left: 94%;}
+.progress-width-1 {width:89%}
+.progress-width-2 {width: 75%;}
+.progress-width-3 {width: 94%;}
 
-.percentage::after {
+.percentage-margin-1 {margin-left: 89%;}
+.percentage-margin-2 {margin-left: 75%;}
+.percentage-margin-3 {margin-left: 94%;}
+
+.percentage::after  {
   background-color: rgb(245 199 102);
   content: '';
   position: absolute;
@@ -351,108 +356,111 @@ flex-direction: column;
   z-index: -1;
 }
 
-.dot {
+.dot  {
   height: 15px;
   width: 15px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
   margin: 5px;
-
 }
-.filled-dot{
+
+.filled-dot {
   background-color: #fff;
 }
-.dots{
+
+.dots {
   text-align: center;
   padding-bottom: 2%; ;
 }
 
-
-#blog-posts-heading{
+#blog-posts-heading {
   text-align: center;
   align-items: center;
   padding: 5%
-
 }
-::placeholder{
+
+::placeholder {
   color: #bbb;
   opacity: 100;
 }
-.blog-style{
+
+.blog-style {
   border-radius: 2px;
   margin: 5%;
   background-color: white;
   margin-bottom: 5%;
   height: 50%;
   padding-bottom: 2%;
-
-}
-.center-blog{
-  
- 
- margin-top: 5%;
- border-radius: 2px;
- background-color: white;
- margin-bottom: 5%;
- height: 50%;
- padding-bottom: 2%;
 }
 
-#blog-post{
+.center-blog { 
+  margin-top: 5%;
+  border-radius: 2px;
+  background-color: white;
+  margin-bottom: 5%;
+  height: 50%;
+  padding-bottom: 2%;
+}
+
+#blog-post {
   align-items: center;
   background-color: whitesmoke;
 }
-.image-styles{
+
+.image-styles {
   width: 100%;
   height: 80%;
 }
-.blog-content{
+
+.blog-content {
  align-items: center;
  padding-left: 7%;
  padding-right: 7%;
-
 }
-.blog-content a{
+
+.blog-content a {
   color: rgb(231, 196, 119);
   text-decoration: none;
-
 }
 
-#say-hello-form{
+#say-hello-form {
   background-color: rgb(245 199 102);
   margin:0px;
 }
-.say-hello-heading{
+
+.say-hello-heading {
   text-align: center;
   padding: 2%;
   margin:0;
   color: whitesmoke;
   padding-top: 6%;
 }
-.form-fields{
+
+.form-fields {
   margin-left: 3%;
   margin-right: 3%;
   padding-bottom: 5%;
 }
-#formd{
+#formd {
    align-content: center;
 }
-.form-flex{
+
+.form-flex {
   display: flex;
   flex-direction: row;
 }
 
-.formbox{
+.formbox {
   width: 280px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
- 
 }
-.text-box{
+
+.text-box {
   width: 100%;
   overflow: hidden;
   font-size: 20px;
@@ -462,7 +470,7 @@ flex-direction: column;
   margin-top: 2%;
 }
 
-.text-box input {
+.text-box input  {
   border: none;
   outline: none;
   background: none;
@@ -472,7 +480,8 @@ flex-direction: column;
   float: left;
   margin: 0 10px;
 }
-.text-box textarea{
+
+.text-box textarea {
   border: none;
   outline: none;
   background: none;
@@ -482,31 +491,32 @@ flex-direction: column;
   float: left;
   margin: 0 10px;
 }
-#first-name{
+
+#first-name {
   margin-right: 41px;
 }
-.margin-per-div{
-  margin-bottom: 50px;
 
+.margin-per-div {
+  margin-bottom: 50px;
 }
-@media only screen and (max-width: 600px) {
-  .nav a {display: none;}
-  .nav a.icon {
+
+@media only screen and (max-width: 600px)  {
+  .nav a  {display: none;}
+  .nav a.icon  {
     float: right;
     display: block;
   }
 }
 
-
-@media only screen and (max-width: 600px) {
-  .nav.responsive {position: relative;}
-  .nav.responsive .icon {
+@media only screen and (max-width: 600px)  {
+  .nav.responsive  {position: relative;}
+  .nav.responsive .icon  {
     position: absolute;
     right: 0;
     top: 0;
     color: white;
   }
-  .nav.responsive a {
+  .nav.responsive a  {
     float: none;
     display: block;
     text-align: left;
@@ -514,29 +524,33 @@ flex-direction: column;
   }
 }
 
+@media only screen and (max-width:600px) {
+  #footer-container   {
+    flex-direction: column;
+  }
 
-@media only screen and (max-width:600px){
-  #footer-container  {
+  .services {
     flex-direction: column;
   }
-  .services{
-    flex-direction: column;
-  }
-  .flex-container-row{
+
+  .flex-container-row {
     flex-direction: column;
     justify-content: center;
   }
-  #events,#culture{
+
+  #events,#culture {
     margin-left: 50px;
   }
-  #percentage-progress{
+
+  #percentage-progress {
     padding-left: 5%;
   }
-  #photographer-sub-content,#sub-content{
+
+  #photographer-sub-content,#sub-content {
     width: 100%;
   }
-  .center-blog{
+
+  .center-blog {
     margin:20px
   }
- 
 }
