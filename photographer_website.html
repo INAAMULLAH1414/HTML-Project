@@ -1,237 +1,311 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Test Project</title>  
-  <meta charset="UTF-8" lang="en-us"> 
-  <link rel="stylesheet"  href="style.css"></link>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="script.js"></script>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
- </head>
-<body>
-<div>
-    <div>
-        <div>
-            <a href="#" id="home">Home</a>
-            <a href="#">About</a> 
-            <a href="#">Services</a> 
-            <strong><p href="#" id="credo" >Credo</p></strong> 
-            <a href="#">Photography</a> 
-            <a href="#">Blog</a> 
-            <a href="#">Contact</a>
-            <a class="icon"><i class="fa fa-bars"></i></a>
-        </div>      
-        <div> 
-            <h1>I'm Crag Smith</h1>
-            <p>Photographer   |   Speaker</p>  
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate dolore, nostrum inventore quisquam totam dignissimos culpa! Eveniet.</p>
-            <Button class="button">Contact Me</Button>
+    <head>
+        <title>Test Project</title>  
+        <meta charset="UTF-8" lang="en-us"> 
+        <link rel="stylesheet"  href="style.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+
+    <body>
+        <div class="flex-cotainer background-image-top">
+            <div id="header">
+                <div class="flex-container nav">
+                    <a href="#"id="home">Home</a>
+                    <a href="#">About</a> 
+                    <a href="#">Services</a> 
+                    <strong><p href="#" id="credo" >Credo</p></strong> 
+                    <a href="#">Photography</a> 
+                    <a href="#">Blog</a> 
+                    <a href="#">Contact</a>
+                    <a class="icon">  <i class="fa fa-bars"></i></a>
+                </div>      
+                
+                <div id="content"> 
+                    <h1 class="crag-smith-heading" >I'm Crag Smith</h1>
+                    <p id="photographer-sub-content">Photographer   |   Speaker</p>  
+                    <p id="sub-content" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptate dolore, nostrum inventore quisquam totam dignissimos culpa! Eveniet.</p>
+                    <Button class="button">Contact Me</Button>
+                </div>
             </div>
         </div>
-</div>
 
-<div>
-    <h3>Services</h3>
-<div>
+        <div id="services-container">
+            <h3 id="service-heading">Services</h3>
+            <div class="services">
+                <div  id="wedding" class="services-section ">
+                    <div id="logo" >
+                        <p> 
+                            <i class="fa fa-glass" ></i> 
+                        </p>
+                    </div>
+                   
+                    <div class="services-content">
+                        <h4>Wedding</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aperiam requdiance quis ipsa quod, reprehenderit iusto laundantium.</p>
+                    </div>
+                </div>
 
-<div>
-    <div><p> <i class="fa fa-glass" ></i> </p></div>
-    <div><h4>Wedding</h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aperiam requdiance quis ipsa quod, reprehenderit iusto laundantium.</p></div>
-</div>
+                <div id="events" class="services-section ">
+                    <div id="logo" >
+                        <p> 
+                            <i class="fa fa-video-camera" ></i> 
+                        </p>
+                    </div>
+                    
+                    <div class="services-content"> 
+                        <h4>Events</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aperiam requdiance quis ipsa quod, reprehenderit iusto laundantium.</p>
+                    </div>
+                </div>
+            </div>
 
-<div id="events">
-    <div><p> <i class="fa fa-video-camera" ></i> </p></div>
-    <div> <h4>Events</h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aperiam requdiance quis ipsa quod, reprehenderit iusto laundantium.</p></div>
-</div>
-</div>
+            <div class="services">
+                <div id="conferences" class="services-section ">
+                    <div id="logo" >
+                        <p>
+                            <i class="fa fa-fire"></i>
+                        </p>
+                    </div>
+                    
+                    <div class="services-content">
+                        <h4>Conferences</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aperiam requdiance quis ipsa quod, reprehenderit iusto laundantium.</p>
+                    </div>
+                </div>
 
-
-<div>
-<div>
-    <div><p><i class="fa fa-fire"></i></p></div>
-    <div><h4>Conferences</h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aperiam requdiance quis ipsa quod, reprehenderit iusto laundantium.</p></div>
-</div>
-
-<div>
-    <div><p><i class="fa fa-magnet"></i></p></div>
-    <div><h4>Culture</h4>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aperiam requdiance quis ipsa quod, reprehenderit iusto laundantium.</p></div>
-</div>
-</div>
-
-</div>
-
-
-<div>
-    <div>  
-    <div><h1>About me</h1></div>
-    <div><imgsrc="images/hero-img.png" width="30%"></div>
-    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae omnis aspernatur quia porro, soluta est fugit amet. Alias totam adipisci cum harum perferendis culpa minus, deserunt at laudantium obcaecati itaque Volupate Saluta?</p><br>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptas optio cumqum?</p></div>
-  </div>
-    <div>
-        <div><h3>Photographer</h3><div>
-        <div>89%</div>
-        <div><h3>Wedding</h3>
-        <div>
-        <div>75%</div>
-        <div> <h3>Events</h3>
-        <div> 
-        <div>94%</div>
-        <div> <h3>Conferences</h3>
-        <div>     
-        <div>94%</div>
-     </div>
-   </div>
-
-</div>
-
-<div>
-   <div><h2>What Are Client Sayings</h2></div>
-   <div><h1>❞</h1></div>
-   <div><p>
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. A minus aut veniam, in itaque nesciunt, consequatur quaerat doloribus at repudiandae sapiente recusandae nihil porro temporibus autem voluptatum, magni numquam labore.
-    </p><br>
-    <p>-Rayan Peter</p>
-    </div>
-</div>
-
-
-
-<div>
-    <div><h1>Blog Posts</h1></div>
-
-    <div>
-         
-        <div>
-           <div><img src="images/blog_1.png" alt="A girl"></div>
-           <div><h3>Why Photography Is Good for Buissiness</h3>
-            <p>April 25,2019</p> 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quod quia voluptatum voluptatibus architecto nobis labore aprieum ab?</p><br>
-            <a href="#">Read More</a>
-           </div> 
+                <div id="culture" class="services-section">
+                    <div id="logo" >
+                        <p>
+                            <i class="fa fa-magnet"></i>
+                        </p>
+                    </div>
+                    
+                    <div class="services-content">
+                        <h4>Culture</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aperiam requdiance quis ipsa quod, reprehenderit iusto laundantium.</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
-        <div>
-          <div><img src="images/blog_2.png" alt="A boy with Camera"></div>
-          <div><h3>Why Photography Is Good for Buissiness</h3>
-            <p>April 25,2019</p> 
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quod quia voluptatum voluptatibus architecto nobis labore aprieum ab?</p><br>
-            <a href="#">Read More</a>
-           </div> 
-        </div>
-
-        <div>
-            <div><img src="images/blog_3.png" alt="Hands" width="100%"></div>
-            <div><h3>Why Photography Is Good for Buissiness</h3>
-                <p>April 25,2019</p> 
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quod quia voluptatum voluptatibus architecto nobis labore aprieum ab?</p><br>
-                <a href="#">Read More</a>
-               </div> 
-        </div>
-
-
-    </div>
+        <div id="about-me" class="flex-container-row" >
+            <div class="about-me-container">  
+                <div>
+                    <h1 id="about-me-heading">About me</h1>
+                </div>
+                
+                <div>
+                    <img id="about-image" src="images/hero-img.png" width="30%">
+                </div>
+            
+                <div id=about-me-sub-content>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae omnis aspernatur quia porro, soluta est fugit amet. Alias totam adipisci cum harum perferendis culpa minus, deserunt at laudantium obcaecati itaque Volupate Saluta?</p>
+                    <br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptas optio cumqum?</p>
+                </div>
+            </div>
+            
+            <div id="percentage-progress" class="percentage-container">
+                <div class="margin-per-div"> 
+                    <h3>Photographer</h3>
+                    <div class="progress-container">
+                        <div class="progress progress-width-1"></div>
+                        <div class="percentage percentage-margin-1">89%</div>
+                    </div>
+                </div>
         
-</div>
-
-
-<div>
-    <div>
-        <h1>Say Hello</h1>
-       <div> 
-      <div>  
-       <div>
-          <input type="text" placeholder="First name">
-      </div>   
-        <div>
-            <input id="fullname" type="text" placeholder="Full name">
-       </div>
-    </div>
-        <div>
-          <input type="text" placeholder="Email address">
+                <div class="margin-per-div"> 
+                    <h3>Wedding</h3>
+                    <div class="progress-container">
+                        <div class="progress progress-width-2"></div>
+                        <div class="percentage percentage-margin-2">75%</div>
+                    </div>
+                </div>
+        
+                <div class="margin-per-div"> 
+                    <h3>Events</h3>
+                    <div class="progress-container">
+                        <div class="progress progress-width-3"></div>
+                        <div class="percentage percentage-margin-3">94%</div>
+                    </div>
+                </div>
+        
+                <div class="margin-per-div"> <h3>Conferences</h3>
+                    <div class="progress-container">
+                        <div class="progress progress-width-3"></div>
+                        <div class="percentage percentage-margin-3">94%</div>
+                    </div>
+                </div>
+            </div>
         </div>
-      
 
-        <div>
-            <input type="text" placeholder="Subject of the message">
-          </div>
-
-
-
-        <div>
-            <textarea name="IBHKB" id=""  placeholder="Type your message here.." cols="30" rows="10"></textarea>
-          </div>
-
-        <input type="button" class="button buttonmsg" value="Send Message">
-    </div>
-      </div>
-</div>
-
-
-
-
-
-<div>
-<div>
-    <h3>&nbsp&nbspCredo</h3>
-   <div > <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-    <address>Wri
-        203 Fake St Mountain View,<br>
-        San Francisco, California, USA<br>
-        </address></div>
-</div>
+        <div id="client-sayings-container" class="flex-container-col">
+            <div id="client-heading">
+                <h2>What Are Client Sayings</h2>
+            </div>
+            
+            <div id="commas">
+                <h1>❞</h1>
+            </div>
+            
+            <div id="blockquote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A minus aut veniam, in itaque nesciunt, consequatur quaerat doloribus at repudiandae sapiente recusandae nihil porro temporibus autem voluptatum, magni numquam labore.</p>
+                <br>
+                <p>-Rayan Peter</p>
+            </div>
+            
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot filled-dot"></span>
+            </div>
+        </div>
 
 
-<div>
-    <h3>Services</h3>
-    <div>
-    <p>Wedding </p>
-    <p>Portrait</p>
-    <p>Photography</p>
-    </div>
-</div>
 
-<div>
-    <h3>Resources</h3>
-    <div>
-        <p>Wedding </p>
-        <p>Portrait</p>
-        <p>Photography</p>
-    </div>
-</div>
+        <div id="blog-post">
+            <div id="blog-posts-heading">
+                <h1>Blog Posts</h1>
+            </div>
 
-<div>
-    <h3>Quick links</h3>
-    <div>
-        <p>Wedding </p>
-        <p>Portrait</p>
-        <p>Photography</p>
-    </div>
-</div>
+            <div class="flex-container-row blog-posts-container">
+                <div class="blog-style">
+                    <div >  
+                        <img src="images/blog_1.png" alt="A girl" class="image-styles">
+                    </div>
+                    
+                    <div class="blog-content">
+                        <h3>Why Photography Is Good for Buissiness</h3>
+                        <p>April 25,2019</p> 
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quod quia voluptatum voluptatibus architecto nobis labore aprieum ab?</p>
+                        <br>
+                        <a href="#">Read More</a>
+                    </div> 
+                </div>
 
-<div>
-    <h3>Follow Me</h3>
-    <div>
-       <a href="#"><i class="fa fa-twitter"></i></a>
-       <a href="#"><i class="fa fa-facebook"></i></a> 
-       <a href="#"><i class="fa fa-instagram"></i></a> 
-       <a href="#"><i class="fa fa-dribbble"></i></a> 
-       <a href="#"><i class="fa fa-linkedin"></i></a> 
-    
-    </div>
-</div>
-</div>
 
-<footer>
-    <div id="copyright"> 
-        <p>copyright © 2021 All Rights Rserved | This Template is made with ♡ by colorlib</p>
-    </div>
-</footer>
+                <div class="center-blog">
+                    <div>  
+                        <img src="images/blog_2.png" alt="A boy with Camera" class="image-styles">
+                    </div>
+                    
+                    <div class="blog-content">
+                        <h3>Why Photography Is Good for Buissiness</h3>
+                        <p>April 25,2019</p> 
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quod quia voluptatum voluptatibus architecto nobis labore aprieum ab?</p>
+                        <br>
+                        <a href="#">Read More</a>
+                    </div> 
+                </div>
 
-</body>
+                <div class="blog-style">
+                    <div>
+                        <img src="images/blog_3.png" alt="Hands" width="100%">
+                    </div>
+                    
+                    <div class="blog-content">
+                        <h3>Why Photography Is Good for Buissiness</h3>
+                        <p>April 25,2019</p> 
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores quod quia voluptatum voluptatibus architecto nobis labore aprieum ab?</p>
+                        <br>
+                        <a href="#">Read More</a>
+                    </div> 
+                </div>
+            </div>    
+        </div>
+
+        <div id="say-hello-form">
+            <div class="form-box">
+                <h1 class="say-hello-heading">Say Hello</h1>
+                <div class="form-fields"> 
+                    <div class="form-flex">  
+                        <div id="first-name"  class="text-box ">
+                            <input type="text" placeholder="First name">
+                        </div>   
+                        
+                        <div class="text-box">
+                            <input id="full-name" type="text" placeholder="Full name">
+                        </div>
+                    </div>
+                    
+                    <div class="text-box">
+                        <input type="text" placeholder="Email address">
+                    </div>
+            
+                    <div class="text-box">
+                        <input type="text" placeholder="Subject of the message">
+                    </div>
+                    
+                    <div class="text-box">
+                        <textarea name="IBHKB" id=""  placeholder="Type your message here.." cols="30" rows="10"></textarea>
+                    </div>
+                    
+                    <input type="button" class="button message-button" value="Send Message">
+                </div>
+            </div>
+        </div>
+
+        <div id="footer-container">
+            <div>
+                <h3 id="footer-heading">&nbsp&nbspCredo</h3>
+                <div> 
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                    <address>Wri
+                        203 Fake St Mountain View,
+                        <br>
+                        San Francisco, California, USA
+                        <br>
+                    </address>
+                </div>
+            </div>
+
+            <div>
+                <h3 id="footer-heading">Services</h3>
+                <div>
+                    <p>Wedding </p>
+                    <p>Portrait</p>
+                    <p>Photography</p>
+                </div>
+            </div>
+            
+            <div>
+                <h3 id="footer-heading">Resources</h3>
+                <div>
+                    <p>Wedding </p>
+                    <p>Portrait</p>
+                    <p>Photography</p>
+                </div>
+            </div>
+
+            <div>
+                <h3 id="footer-heading">Quick links</h3>
+                <div>
+                    <p>Wedding </p>
+                    <p>Portrait</p>
+                    <p>Photography</p>
+                </div>
+            </div>
+
+            <div>
+                <h3 id="footer-heading">Follow Me</h3>
+                <div id="follow-me-container">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a> 
+                    <a href="#"><i class="fa fa-instagram"></i></a> 
+                    <a href="#"><i class="fa fa-dribbble"></i></a> 
+                    <a href="#"><i class="fa fa-linkedin"></i></a>    
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div id="copyright"> 
+                <p>copyright © 2021 All Rights Rserved | This Template is made with ♡ by colorlib</p>
+            </div>
+        </footer>
+    </body>
 </html>
