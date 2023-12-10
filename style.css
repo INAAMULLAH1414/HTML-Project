@@ -75,7 +75,7 @@ body {
   justify-content: center;
 }
 
-#service-heading {
+.service-heading {
   text-align: center;
   padding-bottom: 100px;
   font-size: 30px;
@@ -93,15 +93,11 @@ body {
   margin-bottom: 2%;
 }
 
-#sub-content {
+.sub-content {
   text-align: left;
   font-weight: lighter;
   font-size: 16px;
   width: 50%;
-}
-
-#whitedot {
-  color: #fff;
 }
 
 #credo {
@@ -112,7 +108,7 @@ body {
   margin-top:10px; 
 }
 
-#home {
+.hite-color {
   color: white;
 }
 
@@ -126,27 +122,16 @@ body {
   width: 70%;
 }
 
-#photographer-sub-content {
+.photographer-sub-content {
   color: grey;
   font-size: 23px;
   font-weight: lighter;
    width: 50%; 
 }
 
-#services-container {
+.services-container {
   background-color: whitesmoke;
   padding-top: 100px;
-}
-
-.servivestyle {
-  position: absolute;
-  width: 30%;
-}
-
-.servivestyle2 {
-  position: absolute;
-  width: 30%;
-  float: right;
 }
 
 .services-section {
@@ -167,7 +152,7 @@ body {
   padding-bottom: 5%;
 }
 
-#about-me {
+.align-content-center {
   align-content: center; 
 }
 
@@ -538,7 +523,7 @@ footer {
     justify-content: center;
   }
 
-  #events,#culture {
+  #events, #culture {
     margin-left: 50px;
   }
 
@@ -546,7 +531,7 @@ footer {
     padding-left: 5%;
   }
 
-  #photographer-sub-content,#sub-content {
+  .photographer-sub-content, .sub-content {
     width: 100%;
   }
 
