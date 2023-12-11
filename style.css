@@ -213,13 +213,7 @@ footer {
   padding-bottom: 5%;
 }
 
-.fromdiv {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(245 199 102);
-}
-
-#logo {
+.logo {
   float: left;
   background: rgb(231, 196, 119);;
   border-radius: 50%;
@@ -232,7 +226,7 @@ footer {
   padding: 5;
 }
 
-#logo p {
+.logo p {
   text-align: center;
   color: #eee;
 }
@@ -321,13 +315,13 @@ footer {
   margin-left: 89%;
 }
 
-.progress-width-1 {width:89%}
-.progress-width-2 {width: 75%;}
-.progress-width-3 {width: 94%;}
+.progress-width-89-percent { width:89% }
+.progress-width-75-percent { width: 75%; }
+.progress-width-94-percent { width: 94%; }
 
-.percentage-margin-1 {margin-left: 89%;}
-.percentage-margin-2 {margin-left: 75%;}
-.percentage-margin-3 {margin-left: 94%;}
+.percentage-margin-89-percent { margin-left: 89%; }
+.percentage-margin-75-percent { margin-left: 75%; }
+.percentage-margin-94-percent { margin-left: 94%; }
 
 .percentage::after  {
   background-color: rgb(245 199 102);
